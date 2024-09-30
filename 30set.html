@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cadastro de Filmes</h1>
+
+    <div class="form-container">
+        <form id="formFilme" action="#" method="POST">
+            <label for="titulo">Título do Filme:</label>
+            <input type="text" id="titulo" name="titulo" placeholder="Insira o título" required><br>
+
+            <label for="diretor">Diretor:</label>
+            <input type="text" id="diretor" name="diretor" placeholder="Insira o diretor" required><br>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero" required>
+                <option value="Ação">Ação</option>
+                <option value="Drama">Drama</option>
+                <option value="Comédia">Comédia</option>
+            </select><br>
+
+            <label for="ano">Ano de Lançamento:</label>
+            <input type="number" id="ano" name="ano" placeholder="Insira o ano" required><br>
+
+            <input type="submit" value="Cadastrar Filme">
+        </form>
+    </div>
+
+    <h2>Filmes Cadastrados</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Título</th>
+                <th>Diretor</th>
+                <th>Gênero</th>
+                <th>Ano</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pulp Fiction</td>
+                <td>Quentin Tarantino</td>
+                <td>Ação</td>
+                <td>1994</td>
+            </tr>
+            <tr>
+                <td>Kill Bill: Volume 1</td>
+                <td>Quentin Tarantino</td>
+                <td>Ação</td>
+                <td>2003</td>
+            </tr>
+            <tr>
+                <td>Kill Bill: Volume 2</td>
+                <td>Quentin Tarantino</td>
+                <td>Ação</td>
+                <td>2004</td>
+            </tr>
+            <tr>
+                <td>Bastardos Inglórios</td>
+                <td>Quentin Tarantino</td>
+                <td>Drama</td>
+                <td>2009</td>
+            </tr>
+            <tr>
+                <td>Cães de Aluguel</td>
+                <td>Quentin Tarantino</td>
+                <td>Ação</td>
+                <td>1992</td>
+            </tr>
+            <tr>
+                <td>Django Livre</td>
+                <td>Quentin Tarantino</td>
+                <td>Drama</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>Jackie Brown</td>
+                <td>Quentin Tarantino</td>
+                <td>Drama</td>
+                <td>1997</td>
+            </tr>
+            <tr>
+                <td>À Prova de Morte</td>
+                <td>Quentin Tarantino</td>
+                <td>Ação</td>
+                <td>2007</td>
+            </tr>
+            <tr>
+                <td>Os Oito Odiados</td>
+                <td>Quentin Tarantino</td>
+                <td>Drama</td>
+                <td>2015</td>
+            </tr>
+            <tr>
+                <td>Era Uma Vez em... Hollywood</td>
+                <td>Quentin Tarantino</td>
+                <td>Drama</td>
+                <td>2019</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
